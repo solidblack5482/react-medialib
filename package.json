@@ -2,7 +2,7 @@
   "name": "movie_search",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lyrion.github.io/react-movies",
+  "homepage": "https://solidblack5482.github.io/react-movies",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
