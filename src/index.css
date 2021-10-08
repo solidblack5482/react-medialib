@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav {
+  padding: 0 1rem;
+}
+
+.content {
+  min-height: calc(100vh - 70px - 64px);
+  padding: 0 1rem;
+}
+
+.movies, .videoType {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.videoType {
+  grid-template-columns: 1fr 1fr 1fr;
+  /*gap: 2rem;*/
+}
+
+.search-btn {
+  position: absolute;
+  top: 0;
+  right: 0.5rem
+}
+
+.notFound {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
